@@ -78,7 +78,7 @@ if (isset($_POST['username'])) {
         <h2 class="form-signin-heading">請登入</h2>
         <h4>使用"L16"或"L18"開頭的 成大moodle 帳號密碼登入</h4>
         <label for="username" class="sr-only">學號</label>
-        <input type="email" id="username" name="username" class="form-control" placeholder="Email address" required autofocus>
+        <input type="text" id="username" name="username" class="form-control" placeholder="Email address" required autofocus>
         <label for="password" class="sr-only">密碼</label>
         <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">登入</button>
