@@ -9,3 +9,17 @@ mysql_select_db("test");
 mysql_set_charset('utf8',$link);
 ?> 
 ```
+
+## MySQL table
+```
+DROP TABLE IF EXISTS `seat`;
+
+CREATE TABLE `seat` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` text,
+  `seat` int(11) DEFAULT NULL,
+  `allow` tinyint(1) DEFAULT '1',
+  `room` int(3) DEFAULT '416',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
